@@ -10,12 +10,29 @@ h1.brandon {
 ol {
   font-size: 1.25em;
 }
+ul {
+  font-size: 1.25em;
+}
 p {
   font-size: 1.25em;
 }
 span.vocab {
   font-size: 1.5em;
   color: red;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px ;
+  font-size: .9em;
+  font-family: 'Open Sans', sans-serif;
+  overflow: auto;
+  margin-top: 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .viewText {
   background-color: rgba(61, 91, 67, .7) ;
